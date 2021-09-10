@@ -1,19 +1,98 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<meta http-equiv="Content-Type" content="text/html; charset=UFT-8">
 <meta name="description" content="KOR-APT">
 <meta name="keywords" content="우면코오롱APT">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>APT-QR-Parking</title>
+<title>우면 코오롱 APT QR Parking</title>
+<style>
+
+  h1,h2 {
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+    padding: 10;
+    text-align: center;
+    }
+
+
+    .selected {
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+      text-align: center;
+      font-size:100%;
+              }
+
+
+
+select { width: 50px; height: 41px; font-size: 15px; color:white; border:2px solid #ddd; background-color: #353F49; no-repeat right 13px center;
+  appearance:none; -webkit-appearance:none; text-align:center;
+}
+
+
+select::-ms-expand {  display: none;}
+</style>
+
+
+
 
 </head>
-<frameset rows="100%,*" border="0">
-	<frame name="noframe" src="file:///C:/Users/IMGOM/Documents/APT%20Park%20QR%20PJT/logo.GIF"></frame>
-	<noframes>
-		<body>
-		<p>This page uses frames. The current browser you are using does not support frames.</p>
+
+<div style="text-align : center;">
+<img src="logo.gif" width="15%">
+</div>
+		<body style="background-color: #353F49;color:white"> <!--#E3E3E3-->
+
+      <h1>우면 코오롱 APT</h1>
+      <div class="select-box">
+        <div class="selected">
+        </div>
+        <div class="option_dong" style="text-align : center;" >
+          방문 동 호수 -
+          <select>
+          <option class="op">선택</option>
+        	<option class="op">101</option>
+        	<option class="op">102</option>
+          <option class="op">103</option>
+          <option class="op">104</option>
+          <option class="op">105</option>
+          <option class="op">106</option>
+        	</select>
+          동
+          <select>
+          <option class="op">선택</option>
+          <option class="op">101</option>
+          <option class="op">102</option>
+          <option class="op">103</option>
+          <option class="op">104</option>
+          <option class="op">105</option>
+          <option class="op">106</option>
+          <option class="op">107</option>
+          <option class="op">108</option>
+          <option class="op">109</option>
+          <option class="op">110</option>
+          </select>
+          호
+        </div>
+<br>
+
+
+<br>
+
+<div class="entered" style="text-align : center;" >
+<form action="/examples/media/request.php">
+  차량번호 뒷자리를 넣어주세요 <br> <br>
+  <input type="text" name="username"><br>
+  <keygen name="security"><br>
+  <input type="submit" value="입차하기" style="text-align : center;">
+</form>
+
+
+
+          </div>
 		</body>
-	</noframes>
-</frameset>
+</div>
 </html>
